@@ -11,24 +11,36 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
 # Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
 
+# Visual Studio
+*.tlog
+*.pdb
+*.idb
+*.log
+*.ilk
+*.recipe
+*.lastbuildstate
+
 [x]64
+.vs/OpenGL-3D-Wireframe-Renderer/FileContentIndex/369d15c9-5397-4a87-8e94-907566079ae3.vsidx
+.vs/OpenGL-3D-Wireframe-Renderer/FileContentIndex/a95460e1-a5d9-488c-a2b9-860afae50284.vsidx
+.vs/OpenGL-3D-Wireframe-Renderer/FileContentIndex/cc4a774c-0a0f-4d9b-bd16-9cc6e0a0821f.vsidx
+.vs/OpenGL-3D-Wireframe-Renderer/FileContentIndex/d252d81c-0024-41be-9caa-eac71e9a0df0.vsidx
+.vs/OpenGL-3D-Wireframe-Renderer/v17/.suo
+.vs/OpenGL-3D-Wireframe-Renderer/v17/Browse.VC.db
+.vs/OpenGL-3D-Wireframe-Renderer/v17/Browse.VC.db-shm
+.vs/OpenGL-3D-Wireframe-Renderer/v17/Browse.VC.db-wal
+.vs/OpenGL-3D-Wireframe-Renderer/v17/Browse.VC.opendb
+.vs/OpenGL-3D-Wireframe-Renderer/v17/DocumentLayout.backup.json
+.vs/OpenGL-3D-Wireframe-Renderer/v17/DocumentLayout.json
+.vs/OpenGL-3D-Wireframe-Renderer/v17/ipch/AutoPCH/7045af97d415ba99/APPLICATION.ipch
+.vs/OpenGL-3D-Wireframe-Renderer/v17/ipch/AutoPCH/9782c24137327d66/MAIN.ipch
+.vs/slnx.sqlite
