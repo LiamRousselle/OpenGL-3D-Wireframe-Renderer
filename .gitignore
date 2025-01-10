@@ -21,6 +21,7 @@
 *.app
 
 # Visual Studio
+.vs
 *.tlog
 *.pdb
 *.idb

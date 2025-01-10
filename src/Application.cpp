@@ -14,11 +14,34 @@
 */
 
 #include "iostream"
+#include "glfw3.h"
+
+#define LOG( msg ) std::cout << msg << "\n";
+#define ERROR( msg ) std::cerr << msg << "\n";
+#define ASSERT( con, msg ) if ( !con ) { ERROR( "Assert Failed: " << msg ); exit( -1 ); }
 
 int main( int argc, char* argv[] )
 {
-	std::cout << "Hello World!\n";
-	std::cin.get();
+	ASSERT( glfwInit(), "Failed to initialize GLFW");
 
+	GLFWwindow* window = glfwCreateWindow( 640, 480, "Window", NULL, NULL );
+	if ( window == nullptr )
+	{
+		glfwTerminate();
+		ERROR( "Failed to create GLFWwindow. Exiting application early." );
+
+		return -1;
+	}
+
+	glfwMakeContextCurrent( window );
+
+	while ( !glfwWindowShouldClose( window ) )
+	{
+
+		glfwSwapBuffers( window );
+		glfwPollEvents();
+	}
+
+	glfwTerminate();
 	return 0;
 }
